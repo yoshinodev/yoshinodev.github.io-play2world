@@ -260,9 +260,9 @@
                 className: v().ddbZVE,
                 children: [
                   (0, d.jsx)("div", { className: v().iYiytR }),
-                  (0, d.jsx)("h3", { className: v().eqtFBN, children: "THE TOKEN" }),
-                  (0, d.jsx)("h2", { className: v().cTkNNH, children: "A new generation currency to unlock the value of movement. " }),
-                  (0, d.jsx)("p", { className: "".concat(v().lcnNYU, " ").concat(v().bkRxTR), children: "Play2 serves two functions in Play2 Economy:" }),
+                  (0, d.jsx)("h3", { className: v().eqtFBN }),
+                  (0, d.jsx)("h2", { className: v().cTkNNH }),
+                  (0, d.jsx)("p", { className: "".concat(v().lcnNYU, " ").concat(v().bkRxTR) }),
                   (0, d.jsxs)("div", {
                     className: v().fImkeQ,
                     children: [
@@ -327,16 +327,15 @@
                             className: v().jQMVoz,
                             children: [
                               (0, d.jsx)("h4", { className: v().gdWsUJ, children: "Governance" }),
-                              (0, d.jsx)("p", { className: v().jDPNyC, children: "An open invitation to walk. Run by the community." }),
+                              (0, d.jsx)("p", { className: v().jDPNyC }),
                               (0, d.jsx)("p", {
                                 className: "".concat(v().lcnNYU, " ").concat(v().epSsnw),
                                 children: (0, d.jsxs)("span", {
-                                  children: ["Holders of Play2 will govern Play2 Economy. In practice, ownership, rewards, privileges, and voting", " ", (0, d.jsx)("strong", { children: "reside with Play2 holders" }), "."],
+                                  children: [/*"Holders of Play2 will govern Play2 Economy. In practice, ownership, rewards, privileges, and voting"*/, " ", (0, d.jsx)("strong", { /*children: "reside with Play2 holders"*/ }), "."],
                                 }),
                               }),
                               (0, d.jsx)("p", {
-                                className: "".concat(v().lcnNYU, " ").concat(v().epSsnw),
-                                children: "We created Play2 because we know the value of movement must be communally realized by transferring power and privilege to holders, and those who move.",
+                                className: "".concat(v().lcnNYU, " ").concat(v().epSsnw)
                               }),
                             ],
                           }),
