@@ -352,7 +352,7 @@
                               (0, d.jsx)("p", {
                                 className: "".concat(v().lcnNYU, " ").concat(v().epSsnw),
                                 children: (0, d.jsxs)("span", {
-                                  children: ["Staking is essential to maintaining a ", (0, d.jsx)("strong", { children: "safe and healthy network" }), ". Users can earn a % of Play2 relative to the amount of Play2 they stake."],
+                                  children: [ (0, d.jsx)("strong") ],
                                 }),
                               }),
                             ],
@@ -444,14 +444,14 @@
                       className: y().bjVQss,
                       children: [
                         (0, d.jsx)("div", { size: 23, className: y().gRhNVr }),
-                        (0, d.jsx)("p", { className: "".concat(y().lcnNYU, " ").concat(y().bxLhUv), children: (0, d.jsx)("span", { children: "Currently, only steps mint Play2. In time, other activities will mint Play2." }) }),
+                        (0, d.jsx)("p", { className: "".concat(y().lcnNYU, " ").concat(y().bxLhUv), children: (0, d.jsx)("span") }),
                       ],
                     }),
                     (0, d.jsxs)("div", {
                       className: y().bjVQss,
                       children: [
                         (0, d.jsx)("div", { size: 29, className: y().bWqCq }),
-                        (0, d.jsx)("p", { className: "".concat(y().lcnNYU, " ").concat(y().bxLhUv), children: (0, d.jsx)("span", { children: "Play2 can be minted forever to sustain a global incentive" }) }),
+                        (0, d.jsx)("p", { className: "".concat(y().lcnNYU, " ").concat(y().bxLhUv), children: (0, d.jsx)("span") }),
                       ],
                     }),
                     (0, d.jsxs)("div", {
@@ -461,9 +461,9 @@
                         (0, d.jsxs)("p", {
                           className: "".concat(y().lcnNYU, " ").concat(y().bxLhUv),
                           children: [
-                            (0, d.jsx)("p", { children: "Play2 will have an ever decreasing rate of inflation." }),
+                            (0, d.jsx)("p"),
                             (0, d.jsx)("br", {}),
-                            (0, d.jsx)("p", { children: "Like Bitcoin, Play2 will become harder to create as time goes on: the earlier you walk, the more Play2 you receive." }),
+                            (0, d.jsx)("p"),
                           ],
                         }),
                       ],
