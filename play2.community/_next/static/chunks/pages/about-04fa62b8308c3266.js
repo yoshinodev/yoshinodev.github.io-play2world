@@ -198,7 +198,7 @@
                 children: [
                   (0, d.jsx)("p", {
                     className: "".concat(p().lcnNYU, " ").concat(p().furDHr),
-                    children: "Simple play can improve your well being eg giving us a little fun when we're waiting for something. Simple games can therefore improve our well being but did you know they can do much more? In many countries people now earn extra income by playing simple games. When boring processes are 'gamified' people are much happier to follow them eg for work, health and more. When we are younger or older simple puzzles help our brains get and stay stronger! We are creating a world of simple, fun, free games that reward people to help them get happier, healthier, a little wealthier and even wiser! Find out more below ...",
+                    
                   }),
                   (0, d.jsx)("p", {
                     className: "".concat(p().lcnNYU, " ").concat(p().furDHr),
