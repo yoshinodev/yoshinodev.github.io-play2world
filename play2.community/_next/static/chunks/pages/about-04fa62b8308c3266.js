@@ -554,7 +554,7 @@
             children: (0, d.jsxs)("div", {
               className: F().kEgsbB,
               children: [
-                (0, d.jsx)("h2", { className: F().jeSixp, children: "Play2World Core Team" }),
+                (0, d.jsx)("h2", { className: F().jeSixp }),
                 (0, d.jsxs)(
                   D.Z,
                   (function (a) {
@@ -708,8 +708,8 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Christopher Flynn" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Content Lead" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
                               className: F().hXdjbv
                             }),
@@ -1099,14 +1099,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Sharon Somrero" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "HR" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children:
-                                "Sharon has worked in crypto for three years with Tether and Bitfinex. His role as Head of Tokens at Bitfinex, along with his experience of running a token sale platform, means he knows what makes a project and token successful.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Previously he worked at Deliveroo's HQ in London and as an equity analyst at a hedge fund. Henry holds an MSc. and BSc. degrees." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                       ],
