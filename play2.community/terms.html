@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--**AG: Added the initial scale for better mobile responsiveness**-->
+    <meta charSet="utf-8" />
+    <title>Samar - React Template</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
+    <meta name="next-head-count" content="4" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" integrity="sha512-42kB9yDlYiCEfx2xVwq0q7hT4uf26FUgSIZBK8uiaEnTdShXjwr8Ip1V4xGJMg3mHkUt9nNuTDxunHF0/EgxLQ==" crossorigin="anonymous" referrerPolicy="no-referrer" />
+    <link rel="preload" href="_next/static/css/55b317e714eee8f1-unminified.css" as="style" />
+    <link rel="stylesheet" href="_next/static/css/55b317e714eee8f1-unminified.css" data-n-g="" />
+    <link rel="preload" href="_next/static/css/d311629e9b005a6a-unminified.css" as="style" />
+    <link rel="stylesheet" href="_next/static/css/d311629e9b005a6a-unminified.css" data-n-p="" /><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script>
+    <script src="_next/static/chunks/webpack-e443416cc051def9.js" defer=""></script>
+    <script src="_next/static/chunks/framework-01395af778c6fb71.js" defer=""></script>
+    <script src="_next/static/chunks/main-e8c39d39ad5622e4.js" defer=""></script>
+    <script src="_next/static/chunks/pages/_app-ee66d42535e8a403.js" defer=""></script>
+    <script src="_next/static/chunks/700-ddc43ce876b11c2a.js" defer=""></script>
+    <script src="_next/static/chunks/pages/terms-a8d4d77f62c7e771.js" defer=""></script>
+    <script src="_next/static/71tYW13rmszxMkH6xOrtv/_buildManifest.js" defer=""></script>
+    <script src="_next/static/71tYW13rmszxMkH6xOrtv/_ssgManifest.js" defer=""></script>
+    <script src="_next/static/71tYW13rmszxMkH6xOrtv/_middlewareManifest.js" defer=""></script>
+</head>
+
+<body>
+    <div id="__next" data-reactroot="">
+        <div class="terms_page_content__TxDfR" id="top">
+            <nav role="navigation" class="header_ciURKf__6k7_A"><a class="header_lfSIdg__mw1Mz" href="/"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27628%27%20height=%2760%27/%3e" /></span><img alt="Play2 Logo" src="images/play2_economy_logo.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" /></span></a>
+                <div class="header_jiqoMd__BUfX_"><input type="checkbox" /><span></span><span></span><span></span>
+                    <div class="header_xnav__52axZ header_bLekJe__zvQ1P"><a href="index.html">Home</a><a href="about.html">About</a><a href="https://drive.google.com/file/d/1IPklRcEQvgJkCaeYvGh43yjWl-Dj5_6i/view" target="_blank" rel="noopener noreferrer">Litepaper</a><a href="https://medium.com/@Play2Economy" target="_blank" rel="noopener noreferrer">Blog</a><a href="/privacy">Privacy Policy</a><a href="/terms">T&amp;C</a><a href="#">Help</a>
+                        <div class="header_hYUTym__SM7zi"><a href="https://discord.gg/play2economy" target="_blank" rel="noopener noreferrer" class="header_ljHABS__IsMY4 header_eDvJiP__C6pGH"></a><a href="https://t.me/play2economy" target="_blank" rel="noopener noreferrer" class="header_ljHABS__IsMY4 header_ifkVCB__Huq7p"></a><a href="https://twitter.com/play2economy" target="_blank" rel="noopener noreferrer" class="header_ljHABS__IsMY4 header_eyrHBS__D0FSA"></a><a href="https://www.reddit.com/r/play2economy/" target="_blank" rel="noopener noreferrer" class="header_ljHABS__IsMY4 header_kPTudf__RdoAg"></a></div>
+                    </div>
+                </div>
+                <div class="header_APGtA__QtMch"><a href="about.html">About</a><a href="https://drive.google.com/file/d/1IPklRcEQvgJkCaeYvGh43yjWl-Dj5_6i/view" target="_blank" rel="noopener noreferrer">Litepaper</a><a href="https://medium.com/@Play2Economy" target="_blank" rel="noopener noreferrer">Blog</a><a href="https://help.play2economy.com/" target="_blank" rel="noopener noreferrer">Help</a><span>|</span>
+                    <div class="header_etngLB__9sNZJ"><a href="https://discord.gg/play2economy" target="_blank" rel="noopener noreferrer" class="header_ghuYyE__Gp6tl header_fNLbOu__MWeab"></a><a href="https://t.me/play2economy" target="_blank" rel="noopener noreferrer" class="header_ghuYyE__Gp6tl header_ercOM__krrXD"></a><a href="https://twitter.com/play2economy" target="_blank" rel="noopener noreferrer" class="header_ghuYyE__Gp6tl header_lcygYF__rK6KL"></a><a href="https://www.reddit.com/r/play2economy/" target="_blank" rel="noopener noreferrer" class="header_ghuYyE__Gp6tl header_djnSSc__13OCo"></a></div>
+                </div>
+            </nav>
+            <article class="terms_jDiIcy__QYoaW">
+                <h3 class="terms_iKeidw__daeG1">Terms and conditions</h3>
+                <div class="terms_hQTfW__URZBg">
+                    <p style="text-align:right">Last Updated: 11 June 2022</p>
+
+
+
+                    <p><strong>Acceptance of Terms</strong></p>
+
+
+
+                    <p>These terms and conditions (the "<strong>Terms</strong>") are a legal agreement between The Play2World Foundation Ltd ("Play2World","we" or "us") and the entity or person ("<strong>you</strong>","<strong>your</strong>", or "<strong>user</strong>") who opts in to open a Play2World Wallet, as defined below, by signing up through the Play2WorldCoin app, owned and operated by Play2World Co Ltd, or any of our associated websites, mobile applications, or APIs (together, excluding the Play2WorldCoin app, the “<strong>Play2World Economy Sites</strong>”).</p>
+
+
+
+                    <p>The Terms apply to your application for a Play2World Wallet and future products and services that may be offered by Play2World and its affiliates (each, a "<strong>Service</strong>") as described in these Terms and any subsequent terms. The Terms describe the terms and conditions that apply to your pre-application for a Play2World Wallet.</p>
+
+
+
+                    <p>Before you pre-register for a Play2World Wallet, you must read and accept all of the terms and conditions contained in the Terms as well as our Privacy Policy and Cookie Policy, and you acknowledge and agree that you will be bound by these agreements and policies.</p>
+
+
+
+                    <p>By accepting the Terms you are confirming that you understand and agree to be bound by these terms, and are solely responsible for understanding and complying with all laws, rules, regulations and requirements of the jurisdiction in which you live that may be applicable to your use of the Play2World Economy Sites and/or your Play2World Wallet, including but not limited to, those related to export or import activity, taxes or foreign currency transactions. Depending on your country of residence, you may not be able to use any or all of the functions of the Play2World Economy Site.</p>
+
+
+
+                    <p>Please save or print a copy of the Terms for your records. If you do not understand any of the provisions of the Terms, please contact us before using the Services.</p>
+
+
+
+                    <p>You may not access or use any Services unless you agree to abide by all of the terms and conditions in the Terms.</p>
+
+
+
+                    <p><strong>Overview of the Terms</strong></p>
+
+
+
+                    <p>These Terms and the Play2World Economy Sites provide a description of the Services that Play2World may provide to you, including but not limited to the provision of the Play2World Token app, the issuance of cryptographic tokens in respect of your verified physical activity (“Play2World Tokens”), a wallet service for holding the private keys related to Play2World Tokens (“Play2World Wallet”), and fees charged in connection with our Services from time to time. These Terms relate specifically to the creation of a Play2World Wallet.</p>
+
+
+
+                    <p>Unless terminated earlier in accordance with Clauses 12, or 17, the Terms shall be binding from the date on which you create a Play2World Wallet in accordance with these Terms and shall continue unless we give written notice to you that we are updating the Terms and you do not accept those updates or either party gives written notice to the other party to terminate the agreement made pursuant to these Terms.</p>
+
+
+
+                    <p>The Terms may be changed over time, in accordance with Clause 17. If, after reading the Terms in their entirety, you are still unsure of anything or you have any questions, please contact us at&nbsp;support@play2world.com.</p>
+
+
+
+                    <p>The Play2World Foundation Ltd. is registered in the British Virgin Islands under company number 2081818 has its registered office at Trinity Chambers, PO Box 4301, Road Town, Tortola, British Virgin Islands.</p>
+
+
+
+                    <p>Before using certain Services you may be required to complete an onboarding process provided by Play2World in accordance with Clause 2 (Registration Process; Identity Verification) and until such onboarding process has been completed, Play2World shall have no obligation to provide any of the Services to you.</p>
+
+
+
+                    <p><strong>Section A</strong> describes the onboarding process of opening and using your Play2World Wallet.</p>
+
+
+
+                    <p><strong>Section B</strong> describes your use of the Services.</p>
+
+
+
+                    <p><strong>Section C</strong> describes the proper handling, management, and use of data, generated during the creation of your Play2World Wallet and your use of the Services.</p>
+
+
+
+                    <p><strong>Section D</strong> describes your liability to Play2World for losses connected with your Play2World Wallet, or any of the Play2World Services, your agreement to resolve all disputes with Play2World by arbitration and not through a court claim, and other legal terms that apply to you.</p>
+
+
+
+                    <p class="has-text-align-center">
+                    <h3>SECTION A</h3>
+                    </p>
+
+
+
+                    <p><strong>1. Eligibility</strong></p>
+
+
+
+                    <p>(a) Unless Play2World otherwise agrees in writing, you must be either (i) an individual of at least 18 years of age or (ii) a company, partnership or other legal person incorporated, in order to enter into the Terms and to create a Play2World Wallet.</p>
+
+
+
+                    <p>(b) Use of any or all of the Services is subject to the Terms and we may specify further eligibility requirements in writing which may need to be verified prior to providing you with any of the Services.</p>
+
+
+
+                    <p>(c) Note that we may at our discretion not provide all or some of our Services to certain persons or regions if, for example, in doing so, we would not be able to comply with the laws relating to our Services in such circumstances or would put us at risk of non-compliance with any regulatory or other obligation to which we are or could become subject.</p>
+
+
+
+                    <p>(d) You may not use any of the Services on behalf of another person and by entering into these Terms you warrant and represent that you are acting as principal and for your own account.</p>
+
+
+
+                    <p>(e) You warrant, represent and agree that you are not a national, resident of or incorporated in the United States of America, the People’s Republic of China, or any Sanctioned Country as defined in Clause 22(a) below or any country in which the use of access to or holding of digital assets or related technologies is regulated or illegal.</p>
+
+
+
+                    <p><strong>2. Registration Process; Identity Verification</strong></p>
+
+
+
+                    <p>(a) To open a Play2World Wallet, you may be required to go through a regulatory onboarding process, which may involve providing information for the purposes of identity verification and the detection of money laundering, terrorist financing, fraud, or any other financial crime in accordance with our AML Policy from time to time. Examples of information we may request may include but are not limited to, information such as incorporation documents of legal persons, registered address, email address, tax identification number, source of wealth/funds, and identity information of ultimate beneficiary owners and directors. In certain circumstances, we may also perform enhanced due diligence (“EDD”) procedures requiring additional information. Until we give you access to your Play2World Wallet, you should assume that your account is still undergoing due diligence.</p>
+
+
+
+                    <p>(b) When onboarding for your Play2World Wallet, you must provide current, complete, and accurate information in response to all requested items by Play2World before you are able to access the Services. In completing any questionnaire or other request for information by Play2World or providing any update to that information, you warrant and represent that such information is true, complete and accurate in all material respects. If any of this information changes, you must update as soon as possible with the correct information. You must comply with our AML Policy at all times and from time to time, we may also require you to provide further information as a condition for continued use of the Services and you agree to provide us with the information we request. We reserve the right to maintain your account registration information after you close your account for business and regulatory compliance purposes - more information is provided in our data policies in Section C. In providing us with this or any other information that may be required, you confirm that the information is accurate and authentic. You authorize Play2World and give your consent for Play2World, directly or through third parties, to make any inquiries we deem necessary to validate your identity or corroborate the information you have provided, including verifying your identity via electronic services. When we carry out these inquiries, you acknowledge and agree that your personal information may be disclosed to credit reference and fraud prevention or financial crime agencies and that these agencies may respond to our inquiries in full.</p>
+
+
+
+                    <p>(c) We may, in our sole discretion, refuse to open a Play2World Wallet for you for any reason. In addition, your access to one or more of the Services and the limits that apply to your use of the Services may be altered as a result of information collected about you on an ongoing basis and we reserve the right to review your Play2World Wallet or access to other Play2World Services on a regular basis in accordance with our policies. You authorize Play2World to monitor and periodically to re-submit your profile verification for the purposes of identity verification and the detection of money laundering, terrorist financing, fraud, or any other financial crime in accordance with our policies and as provided for in clause 2 (a) above and you agree to provide all updated information and documents that may be requested by Play2World as part of that process.</p>
+
+
+
+                    <p><strong>3. Access</strong></p>
+
+
+
+                    <p>(a) Following the creation of your Play2World Wallet and prior to the official launch of Play2World, the Play2World Wallet will be accessible through the Play2WorldCoin app and will be subject to the terms and conditions of the Play2WorldCoin app. The amount of Play2World you may be eligible to receive at the launch of Play2World will be displayed as an estimate on the relevant screens of your Play2WorldCoin app. This estimate is for information only and is subject to change based on a number of factors including without limitation your usage of the app, as well as changes which Play2World shall be entitled to make to the features, number or terms of Play2World as Play2World shall determine in its sole discretion. You agree that, to the fullest extent permissible by law, Play2World shall have no liability to you in respect of any difference between the estimated amount of Play2World displayed in the Play2WorldCoin app and the number of Play2World delivered to your Play2World Wallet at the launch of Play2World.</p>
+
+
+
+                    <p>(b) To access your Play2World Wallet and any associated Services you may be required to download a separate Play2World Token app and link it to the Play2World Wallet using the Play2WorldCoin app via the area made available to you in the Play2WorldCoin app for that purpose. To access any of the Services, you must have the necessary equipment (such as a smartphone or smartwatch) and the associated telecommunication service subscriptions to access the internet. It is your sole responsibility to provide such equipment and for ensuring that it meets the appropriate technical requirements to safely access the Services.</p>
+
+
+
+                    <p class="has-text-align-center">
+                    <h3>SECTION B</h3>
+                    </p>
+
+
+
+                    <p><strong>4. The Play2World Wallet</strong></p>
+
+
+
+                    <p>The Play2World Wallet allows you to receive, and store Play2World. The Play2World Token is built on the Near protocol and is subject to the terms and conditions of the Near protocol, operated by the Near Foundation (“Near”) from time to time which can be found at Near.org.</p>
+
+
+
+                    <p>(a) We reserve the right to provide support for specific cryptocurrencies (“Supported Cryptocurrencies”). For the avoidance of doubt, at the date of these Terms, the only Supported Cryptocurrency is Play2World. Information relating to the Supported Cryptocurrencies will be published on the Play2World Economy Sites from time to time. We may change the Supported Cryptocurrencies from time to time without notice to you, in this case, if we withdraw support for a Supported Cryptocurrency we will notify you to make withdrawals within 10 (ten) days. After this period, the balance will be unavailable for withdrawal. Under no circumstances should you attempt to carry out a Play2World Wallet transaction in relation to a cryptocurrency other than a Supported Cryptocurrency. Before completing any Play2World Wallet transaction, you should therefore ensure that the cryptocurrencies are current in the list of Supported Cryptocurrencies. In particular, but without limiting the generality of the foregoing, you accept and agree that you will have no access, entitlement or claim:</p>
+
+
+
+                    <div class="terms_iIshnL__bnYt_">
+                        <p>(i) to any cryptocurrency sent to a receive address associated with your Play2World Wallet where that cryptocurrency is not a Supported Cryptocurrency; or</p>
+
+
+
+                        <p>(ii) to any cryptocurrency sent to a receive address associated with your Play2World Wallet, where that receive address is associated with another cryptocurrency. For example, you will have no access, entitlement or claim to any Play2World Tokens (Play2World) sent to a Bitcoin (BTC) receive address or vice versa.</p>
+
+
+
+                        <p>(b) We will process Play2World Wallet transactions in accordance with these Terms. You accept and agree that neither Play2World nor Near, does or can:</p>
+
+
+
+                        <div class="terms_iIshnL__bnYt_">
+                            <p>(i) guarantee the identity of any user, receiver, or other parties to a Play2World Wallet transaction. You are solely responsible for ensuring all whitelisted addresses or Third Party Service transaction details are correct, and you should carefully verify all transaction information prior to submitting transaction instructions to Play2World and you acknowledge that entering incorrect transaction instructions to Play2World may result in loss to you for which Play2World has no liability;</p>
+
+
+
+                            <p>(ii) have any control over, or any liability in relation to, the delivery, quality or any other aspect of any goods or services that you may buy from or sell to any third party. Play2World shall not be responsible for, and will take no action in relation to, ensuring that any buyer or seller you transact with using your Play2World Wallet completes the relevant transaction or has the requisite authority to do so;</p>
+
+
+
+                            <p>(iii) have control nor does Play2World accept any liability in respect of any underlying blockchain network issues, including but not limited to forks, double spends and 51% attacks.</p>
+
+
+
+                            <p>(c) You may receive Supported Cryptocurrency into your Play2World Wallet by providing the sender with a receive address of your Play2World Wallet. Your Play2World Wallet will only be credited with the Supported Cryptocurrency sent to a receive address of your Play2World Wallet and associated with that Supported Cryptocurrency. For example, your Play2World Wallet will be credited with Play2World when it is sent to a Play2World receive the address of your Play2World Wallet. Likewise, the Play2World Wallet will only allow the sending of Supported Cryptocurrency to other wallets previously registered by you on the Play2World Platform, which will depend on KYT analysis and Play2World approval.</p>
+
+
+
+                            <p><strong>5. Interaction with and Links to Third Party Products and Services</strong></p>
+
+
+
+                            <p>The Play2World Sites, your Play2World Wallet, or the Services may contain or enable you to interact with links to third-party websites, mobile software applications, products and services that are not owned or controlled by Play2World (each, a “Third Party Service”). We are not responsible for the content, the security, or the privacy practices of such Third Party Services. You must read and agree to the terms and conditions, and privacy policy of each Third Party Service that you choose to interact with or use and Play2World can accept no responsibility for any Third Party Service.</p>
+
+
+
+                            <p><strong>6. Mobile Services</strong></p>
+
+
+
+                            <p>To the extent that you access the Services through a mobile device, your wireless service carrier’s standard charges, data rates, and other fees may apply. In addition, downloading, installing, or using certain mobile applications may be prohibited or restricted by your carrier, and not all Services may work with all carriers or devices. By using mobile Services, you agree that we may communicate with you by SMS, MMS, text message, email push notification, and/or other electronic means via your mobile device and that certain information about your usage of the Services may be communicated to us. In the event that you change or deactivate your mobile telephone number, you agree to promptly update your Play2World Wallet information (including to ensure that your messages are not sent to any person who might acquire your old number).</p>
+
+
+
+                            <p><strong>7. Right to Change/Remove Features or Suspend/Delay Transactions</strong></p>
+
+
+
+                            <p>(a) We reserve the right to change, suspend, or discontinue any aspect of the Services at any time, including hours of operation or availability of any feature, without notice and without liability.</p>
+
+
+
+                            <p>(b) We may decline to process any transaction using the Services (for example, withdrawals) without prior notice and may limit or suspend your use of one or more Services at any time, in our sole discretion. Suspension of your use of any of the Services will not affect your rights and obligations pursuant to the Terms. Where possible, including where we are permitted by law to do so, we will notify you if we decline to process a transaction using the Services by the end of the business day on which the transaction was initiated and, if possible, we will provide our reasons for doing so together with information about anything you can do to correct any errors leading to the stoppage.</p>
+
+
+
+                            <p><strong>8. Restricted Activities</strong></p>
+
+
+
+                            <p>(a) In connection with your use of the Play2World Economy Sites, your Play2World Wallet, or the Services, or in the course of your interactions with us, other Play2World Service users or any third party, you will not:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(i) breach the Terms;</p>
+
+
+
+                            <p>(ii) breach any law, statute, contract, or regulation (including, without limitation, those governing financial services and anti-money laundering) or partake in any transaction involving the proceeds of illegal activity;</p>
+
+
+
+                            <p>(iii) infringe Play2World’s or any third party’s copyright, patent, trademark, trade secret or other intellectual property rights, or rights of publicity;</p>
+
+
+
+                            <p>(iv) send or receive what we reasonably believe to be potentially fraudulent or unauthorized funds or intentionally try to defraud (or assist in the defrauding of) Play2World or other Play2World users;</p>
+
+
+
+                            <p>(v) refuse to cooperate in an investigation or provide confirmation of your identity or any information you provide to us or provide false, inaccurate, or misleading information;</p>
+
+
+
+                            <p>(vi) use an anonymizing proxy, whether electronically, physically (e.g. using a P.O. box as your address) or otherwise;</p>
+
+
+
+                            <p>(vii) use the Services on behalf of any third party or otherwise act as an intermediary between Play2World and any third parties;</p>
+
+
+
+                            <p>(viii) control a Play2World Wallet that is linked to another Play2World Wallet that has engaged in any of these Restricted Activities (a Play2World Wallet is deemed to be "linked to" another Play2World Wallet where Play2World has reason to believe that both accounts are controlled by the same legal entities or group of legal entities (including, without limitation, individuals);</p>
+
+
+
+                            <p>(ix) conduct your business or use the Services in a manner that results in or may result in any complaints, disputes, fees, fines, penalties and other liability to Play2World, any user of the Services, any third party or you;</p>
+
+
+
+                            <p>(x) take any action that interferes with, intercepts, or expropriates any system, data, or information (including collecting any user information from other Play2World users);</p>
+
+
+
+                            <p>(xi) take any action that imposes an unreasonable or disproportionately large load on the Services, our infrastructure, our websites, our software or our systems (including any networks and servers used to provide any of the Services) whether operated by us or on our behalf;</p>
+
+
+
+                            <p>(xii) facilitate any viruses, Trojan horses, malware, worms or other computer programming routines that attempts to or may damage, disrupt, corrupt, misuse, detrimentally interfere with, surreptitiously intercept or expropriate, or gain unauthorized access to any system, data or information or the Services or attempt to gain unauthorized access to other Play2World Wallets, the Play2World Economy Sites, or any related networks or systems;</p>
+
+
+
+                            <p>(xiii) use any robot, spider, other automatic devices, or manual process to monitor or copy the Play2World Economy Sites without our prior written permission;</p>
+
+
+
+                            <p>(xiv) use any device, software or routine to bypass our robot exclusion headers, or interfere or disrupt or attempt to interfere with or disrupt our infrastructure, our websites, software, systems (including any networks and servers used to provide any of the Services) operated by us or on our behalf, any of the Services or other users’ use of any of the Services;</p>
+
+
+
+                            <p>(xv) upload, display or transmit any messages, photos, videos or other media that contain illegal goods, pornographic, violent, obscene or copyrighted images or materials for use as an avatar, in connection with a payment or payment request, or otherwise;</p>
+
+
+
+                            <p>(xvi) copy, reproduce, communicate to any third party, alter, modify, create derivative works, publicly display or frame any content from the Play2World Economy Sites without our or any applicable third party’s written consent;</p>
+
+
+
+                            <p>(xvii) take any action that may cause us to lose any of services from our internet service providers, technology processors, or other suppliers or service providers;</p>
+
+
+
+                            <p>(xviii) allow your use of the Service to present to Play2World a risk of non-compliance with Play2World’s anti-money laundering, counter-terrorist financing and similar regulatory obligations, or</p>
+
+
+
+                            <p>(xix) be involved with:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(A) any Restricted Persons or persons or entities located in Restricted Territories (as each term is defined in Clause22 (Legal Compliance)) or any geography restricted by the AML Policy;</p>
+
+
+
+                            <p>(B) weapons of any kind, including but not limited to firearms, ammunition, knives, or related accessories;</p>
+
+
+
+                            <p>(C) controlled substances including but not limited to narcotics, prescription drugs, steroids, or related paraphernalia or accessories;</p>
+
+
+
+                            <p>(D) any sort of Ponzi scheme, pyramid scheme, or multi-level marketing program;</p>
+
+
+
+                            <p>(E) the sale of money orders or cashier’s checks or any money transmitter activity;</p>
+
+
+
+                            <p>(F) lottery contracts, layaway systems, or annuities;</p>
+
+
+
+                            <p>(G) counterfeit goods, including but not limited to fake or "novelty" IDs;</p>
+
+
+
+                            <p>(H) purchasing goods from Tor hidden service markets or "Darknet" markets, or any other service or website that acts as a marketplace for illegal goods (even though such marketplace might also sell legal goods);</p>
+
+
+
+                            <p>(I) adult content;</p>
+
+
+
+                            <p>(J) pseudo-pharmaceuticals (including substances making pharmaceutical claims with no legal basis) and legal highs (including chemicals that are designed to mimic illegal substances);</p>
+
+
+
+                            <p>(K) any business or organization that (i) engages in, encourages, promotes or celebrates unlawful violence or physical harm to persons or property, or (ii) engages in, encourages, promotes or celebrates unlawful violence toward any group based on race, religion, disability, gender, sexual orientation, national origin, or any other immutable characteristic;</p>
+
+
+
+                            <p>(L) products, services, transactions or delivery channels related to digital assets or digital asset service providers that are breaching respective local regulations or that operate from restricted geographies as per the AML Policy;</p>
+
+
+                            <div></div>
+
+
+                            <p>(xx) any other matters which we communicate to you that are unacceptable from time to time and which, for example, may be restricted by our and your service partners or regulatory bodies.</p>
+
+
+
+                            <p>(each, a "Restricted Activity" and together with the "Restrictive Activities").</p>
+
+
+
+                            <p>(b) In the event that Play2World learns that you are using the Services in connection with the Restricted Activities referred to in this paragraph 8 or deemed to be a suspicious activity, Play2World may suspend or terminate your Play2World Wallet.</p>
+
+
+
+                            <p class="has-text-align-center">
+                            <h3>SECTION C</h3>
+                            </p>
+
+
+
+                            <p><strong>9. Privacy and Data Protection</strong></p>
+
+
+
+                            <p>We are committed to protecting your personal information and to helping you understand exactly how your personal information is being used. You should carefully read our Privacy Policy and Cookie Policy as it provides details on how your personal information is collected, stored, protected, and used.</p>
+
+
+
+                            <p class="has-text-align-center">
+                            <h3>SECTION D</h3>
+                            </p>
+
+
+
+                            <p><strong>10. Communications</strong></p>
+
+
+
+                            <p>(a) Any communication required to be given under the Terms will be in writing and will be sent to the email address used to register your account. Notices will be deemed to have been received at the time of transmission as shown by the sender’s records (or if sent outside business hours, at 9am on the first business day following dispatch). You may change your details by giving written notice to us.</p>
+
+
+
+                            <p>(b) By entering into the Terms, you agree to receive electronic communications and notifications from Play2World.</p>
+
+
+
+                            <p>(c) The Terms are provided to you and concluded in English. We will also communicate with you in English for all matters related to your use of our Services.</p>
+
+
+
+                            <p>(d) We will provide you with an electronic copy of the Terms at your request.</p>
+
+
+
+                            <p><strong>11. Security of User Information; Liability for Unauthorized or Incorrect Transactions</strong></p>
+
+
+
+                            <p>(a) You are responsible for:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(i) maintaining the confidentiality and security of any and all account names, user IDs, passwords, two-factor authentication, personal identification numbers (PINs), and mobile unlock codes (the "Security Details") that you use to access your Play2World Account and the Services;</p>
+
+
+
+                            <p>(ii) keeping electronic devices through which your Play2World Account and/or the Services are accessed, or your Security Details authenticated, safe and maintaining adequate security and control of such devices (which includes taking all reasonable steps to avoid the loss, theft or misuse of your electronic devices); and</p>
+
+
+
+                            <p>(iii) keeping your email address and mobile phone number up to date in your Play2World Account profile and maintaining the confidentiality of your Security Details.</p>
+
+
+                            <div></div>
+
+
+                            <p>(b) You must:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(i) notify Play2World immediately if you become aware of any unauthorized use of your Play2World Wallet and/or the Services and/or any other breach of security regarding your Play2World Wallet and/or the Services by contacting us at support@play2world; and</p>
+
+
+
+                            <p>(ii) enable all relevant security features on the device you use to access the Play2World Economy Sites and within the mobile application associated with the Play2World Economy Sites itself such as two-factor authentication and PIN Code or Touch/Facial ID access control.</p>
+
+
+
+                            <p>(c) If we become aware or suspect that:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(i) any of your Security Details have been compromised; and/or</p>
+
+
+
+                            <p>(ii) there has been any unauthorized use of your Play2World Wallet and/or the Services; and/or</p>
+
+
+
+                            <p>(iii) there has been any other breach of security regarding our Play2World Wallet and/or the Services,</p>
+
+
+
+                            <p>if the law permits us to, we will notify you of this using the email you provided to us by the end of the relevant business day on which we became aware of the breach. If we suspect that your email address has been compromised, we will suspend the use of your Play2World Wallet in accordance with Clause 11. We will release the suspension of your Play2World Account only once we are satisfied that your account is secure and that the reason for the suspension has ended. If your account remains suspended for more than 180 days and we are unable to contact you, we will close your account in accordance with these Terms.</p>
+
+
+
+                            <p>(d) Any loss or compromise of electronic devices that you have used to access the Play2World Services or your security details may result in unauthorized access of your Play2World Wallet or use of the Services by third parties and loss or theft arising from such unauthorized access. You will be liable for all losses incurred in respect of unauthorized transactions where you have acted fraudulently or have failed to comply with the terms of the Terms or where you have failed to notify us of any security breach in accordance with this clause.</p>
+
+
+
+                            <p>(e) We shall not bear any liability for any damage or interruptions caused by any computer viruses, spyware, or other malware that may affect your computer or other equipment, or any phishing, spoofing, or other attacks. We recommend that you use reliable virus and malware screening and prevention software and keep your devices up to date with the latest software and security versions. If you question the authenticity of a communication purporting to be from Play2World, you should log in to your account through the Play2World Site, not by clicking links contained</p>
+
+
+
+                            <p><strong>12. Closing Your Play2World Wallet</strong></p>
+
+
+
+                            <p>(a) You may terminate the Terms with us at any time by deleting your Play2World Wallet and discontinuing the use of the Services. If you delete your Play2World Wallet, you may no longer be able to access any Services and if you wish to access any of the Services in the future you will need to follow the Play2World Wallet onboarding procedure in full. Upon termination and/or the closure of your Play2World Wallet, you remain liable for all transactions made and Services accessed while the account was open. You may not close your account to evade an investigation or regulatory action by law enforcement.</p>
+
+
+
+                            <p>(b) On the closure of your Play2World Wallet, we shall keep records of your account and relevant activity in accordance with our legal and regulatory obligations and our policies as adopted from time to time. Closure of your Play2World Wallet and termination of any agreement with us shall not serve to require Play2World to delete any information and nothing in these terms and conditions will require Play2World to do anything illegal, or to breach its obligations to any regulator or authority of competent jurisdiction.</p>
+
+
+
+                            <p><strong>13. Indemnification; Release</strong></p>
+
+
+
+                            <p>(a) You agree to indemnify and hold Play2World, its affiliates, and service providers, and each of their officers, directors, agents, joint venturers, employees, and representatives harmless from any claim or demand (including legal fees and any losses, fines, fees, or penalties imposed by any regulatory authority) arising out of your breach of the Terms, or your violation of any law or regulation.</p>
+
+
+
+                            <p>(b) For the purpose of this clause, the term "losses" means all net costs reasonably incurred by us or the other persons referred to in this clause which are the result of the matters set out in this clause and which may relate to any claims, demands, causes of action, debt, cost, expense or other liability, including legal fees (without duplication).</p>
+
+
+
+                            <p>(c) If you have a dispute with one or more users of the Play2World Services or third parties, you release Play2World (and its affiliates and service providers, and each of their officers, directors, agents, joint ventures, employees, and representatives) from any and all claims, demands, and damages (actual and consequential) of every kind and nature arising out of or in any way connected with such disputes.</p>
+
+
+
+                            <p class="has-text-align-center"><strong>SERVICES; THIRD PARTIES</strong></p>
+
+
+
+                            <p>Play2World is an independent contractor for all purposes and is not your agent or trustee. Play2World does not have control of, or liability for, any products or services that are purchased from or sold by third parties using the Services. Play2World does not guarantee the identity of any user or other party or ensure that a buyer or seller is authorized to complete a transaction or will complete a transaction. Play2World is not liable for any losses or issues that may arise from such third-party transactions, including, but not limited to, legality, quality, delivery, or satisfaction with any products purchased. If you are not satisfied with any goods or services purchased from or sold by, a third party using the Services, you must handle those issues directly with the third party seller or buyer, as applicable.</p>
+
+
+
+                            <p><strong>15. Liability</strong></p>
+
+
+
+                            <p><strong>15.1 Release of Play2World</strong></p>
+
+
+
+                            <p>If you have a dispute with one or more users of the Services, you agree that neither we nor our affiliates or service providers, nor any of our respective officers, directors, agents, joint venturers, employees and representatives will be liable for any claims, demands and damages (actual and consequential) of any kind or nature arising out of or in any way connected with such disputes.</p>
+
+
+
+                            <p><strong>15.2 Indemnification</strong></p>
+
+
+
+                            <p>You agree to indemnify us, our affiliates and service providers, and each of our or their respective officers, directors, agents, employees and representatives, in respect of any costs (including legal fees and any fines, fees or penalties imposed by any regulatory authority) that have been reasonably incurred in connection with any claims, demands or damages arising out of or related to your breach and/or our enforcement of the Terms or your violation of any law, rule or regulation, or the rights of any third party.</p>
+
+
+
+                            <p><strong>15.3 Limitations of Liability</strong></p>
+
+
+
+                            <p>We shall only be liable to you for loss or damage caused directly and reasonably foreseeable by our breach of the Terms and our liability in these circumstances is limited as set out in the remainder of this clause. For the avoidance of doubt, the term "loss" includes a partial loss or reduction in value as we ll as a complete or total loss.</p>
+
+
+
+                            <p><strong>15.4 Liability Cap</strong></p>
+
+
+
+                            <p>Except as otherwise provided for in the Terms, neither we, nor our affiliates or service providers, nor any of our or their respective officers, directors, agents, employees or representatives, will be liable for any amount greater than the aggregate amount you have transferred to us and which is held by us in connection with your use of the Services. Where we are considering a specific claim relating to a specific transaction this sum shall be further limited to the amount of the transaction in dispute.</p>
+
+
+
+                            <p><strong>15.5 Limitation of Loss</strong></p>
+
+
+
+                            <p>a) In addition to the liability cap at Clause15.4 (Liability Cap), in no event shall we, our affiliates or service providers, or any of our or their respective officers, directors, agents, employees or representatives, be liable for any of the following types of loss or damage arising under or in connection with the Terms or otherwise:</p>
+
+
+
+                            <p>(a) any loss of profits or loss of expected revenue or gains, including any loss of anticipated trading profits and/or any actual or hypothetical trading losses, even if we are advised of or knew or should have known of the possibility of the same. This means, by way of example only (and without limiting the scope of the preceding sentence), that if you claim that we failed to process the transaction properly, your damages are limited to no more than the combined value of the amount transferred to and held by us in connection with your use of the Services, and that you may not recover for any "loss" of anticipated profits or for any actual losses made as a result of the failure to process a transaction;</p>
+
+
+
+                            <p>(b) any loss of or damage to reputation or goodwill; any loss of business or opportunity, customers or contracts; any loss or waste of overheads, the management or other staff time; or any other loss of revenue or actual or anticipated savings, even if we are advised of or knew or should have known of the possibility of the same;</p>
+
+
+
+                            <p>(c) any loss of use of hardware, software or data and/or any corruption of data; including but not limited to any losses or damages arising out of or relating to any inaccuracy, defect or omission of digital assets price data; any error or delay in the transmission of such data; and/or any interruption in any such data;</p>
+
+
+
+                            <p>(d) any loss or damage whatsoever which does not stem directly from our breach of the Terms; and/or</p>
+
+
+
+                            <p>(e) any loss or damage whatsoever which is in excess of that which was caused as a direct result of our breach of the Terms (whether or not you are able to prove such loss or damage).</p>
+
+
+
+                            <p><strong>15.6 Applicable Law</strong></p>
+
+
+
+                            <p>The limitation of liability in this Clause15 is subject to any obligations that we have under applicable law and regulation, including our obligation to exercise reasonable care and skill in our provision of the Services. Nothing in the Terms shall limit our liability resulting from our fraud or fraudulent misrepresentation, gross negligence, deliberate misconduct, or for death or personal injury resulting from either our or our subcontractor’s negligence.</p>
+
+
+
+                            <p><strong>15.7 No Warranties</strong></p>
+
+
+
+                            <p>The Services are provided on an "as is" and "as available" basis without any representation or warranty, whether express or implied, to the maximum extent permitted by applicable law: specifically we disclaim any implied warranties of title, merchantability, fitness for a particular purpose and/or non‑infringement. We do not make any representations or warranties that access to the Play2World Site, any of the Services, or any of the materials contained therein, will be continuous, uninterrupted, timely, or error‑free.</p>
+
+
+
+                            <p><strong>15.8 Safety and Security of Your Computer and Devices</strong></p>
+
+
+
+                            <p>Play2World is not liable for any damage or interruptions caused by any computer viruses, spyware, scareware, Trojan horses, worms or other malware that may affect your computer or other equipment, or any phishing, spoofing or other attacks. You should also be aware that SMS and email services are vulnerable to spoofing and phishing attacks and you should use care in reviewing messages purporting to originate from us. We will never ask to screen share or otherwise seek to access your computer or account; similarly, we will not ask for your two-factor authentication codes. You should always log in to your Play2World Wallet through the Play2World Economy Sites to review any transactions or required actions if you have any uncertainty regarding the authenticity of any communication or notice.</p>
+
+
+
+                            <p><strong>16. Force Majeure</strong></p>
+
+
+
+                            <p>Play2World shall have no liability for any failure or delay resulting from any abnormal or unforeseeable circumstances outside our reasonable control, the consequences of which would have been unavoidable despite all efforts to the contrary, including but not limited to governmental action or acts of terrorism, earthquake, fire, flood, or other acts of God, labor conditions, delays or failures caused by problems with another system or network (including any Network), mechanical breakdown or data-processing failures or situations where our breach is due to the application of mandatory legal and/or regulatory rules.</p>
+
+
+
+                            <p><strong>17. Amendments</strong></p>
+
+
+
+                            <p>(a) We may from time to time need to make changes to the Terms.</p>
+
+
+
+                            <p>(b) We can make a change to the Terms for any of the following reasons, with any change being a reasonable and proportionate response to the circumstances affecting us or that we reasonably think will affect us:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_"></div>
+
+
+                            <p>(i) because of a change in legal or regulatory requirements, for example, we may have to change our requirements for keeping your Play2World Account safe to meet new, higher standards set by law; if the change benefits you, for example when introducing new products or services or improving existing ones;</p>
+
+
+
+                            <p>(ii) to reflect a change in our costs of running your Play2World Wallet or providing you with related services, for example by introducing new account or transaction fees; or</p>
+
+
+
+                            <p>(iii) in response to possible risks to the security of your Play2World Wallet, for example by changing the security steps you need to follow to access your Play2World Wallet or make transfers; or to respond to any other change that affects us.</p>
+
+
+
+
+
+                            <p>(c) We may make changes for any other reason we cannot foresee, for example, to respond to changes among our competitors that affect how we wish to deliver the Services to you. We may amend any portion of the Terms at any time. We will give one month advance notice by email. In the event that you do not agree with any such modification, your sole and exclusive remedy is to terminate your use of the Services and close your Play2World Wallet. If you do not terminate your use of the Services and close your account and continue to use the Services you will be deemed to have accepted the changes. You agree that we shall not be liable to you or any third party as a result of any losses suffered by any modification or amendment of the Terms.</p>
+
+
+
+                            <p>(d) You can always determine when the Terms were last changed by checking the "Last Updated" date at the top of the Terms.</p>
+
+
+
+                            <p><strong>18. Assignment</strong></p>
+
+
+
+                            <p>You may not transfer or assign the Terms or any rights or obligations you have under the Terms without our prior written consent and any such attempted assignment shall be void. We reserve the right to freely assign or transfer the Terms and the rights and obligations of the Terms, along with any part of our business, intellectual property or technology, including the Play2World Wallet, to any third party at any time without notice or consent. If you object to such transfer or assignment, you may stop using our Services and terminate the Terms by closing your Play2World Wallet.</p>
+
+
+
+                            <p><strong>19. Survival</strong></p>
+
+
+
+                            <p>Upon termination of your Play2World Wallet or the Terms for any other reason, all rights and obligations of the parties that by their nature are continuing will survive such termination.</p>
+
+
+
+                            <p><strong>20. Third Party Applications</strong></p>
+
+
+
+                            <p>If you grant express permission to a third party to connect to your account, either through the third party’s product or through Play2World, you acknowledge that granting permission to a third party to take specific actions on your behalf does not relieve you of any of your responsibilities under the Terms. Further, you acknowledge and agree that you will not hold Play2World responsible for, and will indemnify Play2World from, any liability arising from the actions or inactions of this third party in connection with the permissions you grant.</p>
+
+
+
+                            <p><strong>21. Limited License</strong></p>
+
+
+
+                            <p>We grant you a limited, non‑exclusive, non‑transferable license to the Terms, to access and use the Play2World Economy Site, your Play2World Wallet and the Services solely for approved purposes as permitted by us from time to time. Any other use is expressly prohibited and all other rights, titles, and interests in the Play2World Economy Site, its contents and the Services and all technology and any content created or derived from any of the foregoing is exclusively the property of Play2World and its licensors. You agree not to copy, transmit, distribute, sell, license, reverse engineer, modify, publish, or participate in the transfer or sale of, create derivative works from, or in any other way exploit the Play2World Economy Site or its contents, in whole or in part.</p>
+
+
+
+                            <p><strong>22. Legal Compliance</strong></p>
+
+
+
+                            <p>Your use of the Play2World Economy Sites and the Services is subject to international export controls and economic sanctions requirements. By using the Play2World Economy Sites and Services, you represent that your actions are not in violation of export control or other applicable restrictions and that you undertake to comply with the requirements of any such restrictions to which you are subject. Without limiting the foregoing, you are not permitted to access the Play2World Economy Site or use any of the Play2World Services if:</p>
+
+
+                            <div class="terms_iIshnL__bnYt_">
+                                <p>(a) you are in, under the control of, or a national or resident of Cuba, Iran, North Korea, Sudan, or Syria or any other country subject to United States embargo, UN sanctions, HM Treasury’s financial sanctions regime (a "Sanctioned Country"), or if you are a person on the U.S.Treasury Department’s Specially Designated Nationals List or the U.S.Commerce Department’s Denied Persons List, Unverified List, Entity List, or the HM Treasury’ financial sanctions regime (a "Sanctioned Person");</p>
+
+
+
+                                <p>(b) you intend to transact with any Sanctioned Country (or a national or resident of a Sanctioned Country) or Sanctioned Person; and/or</p>
+
+
+
+                                <p>(c) you are not a US person for the purposes of Regulation S of the US Securities Act of 1933.</p>
+                            </div>
+
+
+                            <p><strong>23. Governing Law; Jurisdiction</strong></p>
+
+
+
+                            <p>The Terms are governed by the laws of the British Virgin Islands. This means that the Terms and any dispute or claim arising out of or in connection with it will be governed by the laws of the British Virgin Islands.</p>
+
+
+
+                            <p><strong>24. Dispute Resolution</strong></p>
+
+
+
+                            <p>Any questions, discrepancies, disputes or claims arising out of or relating to the validity, interpretation, performance, implementation, termination or breach of the Terms, the Services and Play2World Sites (including the validity of this Clause) or any legal relationships associated with the Terms, the Services and/or Play2World Site, shall be exclusively and definitively settled, without any recourse to appeal, by final and binding arbitration, which shall be conducted by three arbitrators (unless the parties agree in writing to one arbitrator) in Road Town, Tortola, British Virgin Islands, before the pursuant to the rules of the BVI IAC Arbitration Rules. The proceedings shall be conducted in English and the arbitration award shall be written in English.</p>
+
+
+
+                            <p>Unless as otherwise required by the BVI IAC Arbitration Rules, any and all documents and information exchanged between the Parties or provided to the arbitrators in connection with a dispute submitted to arbitration hereunder shall be deemed to be confidential information</p>
+
+
+
+                            <p><strong>25. Entire Agreement; Third Party Rights</strong></p>
+
+
+
+                            <p>(a) The failure of Play2World to exercise or enforce any right or provision of the Terms shall not constitute a waiver of such right or provision. If any provision of the Terms shall be adjudged by any court of competent jurisdiction to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that the Terms shall otherwise remain in full force and effect and remain enforceable between the parties.</p>
+
+
+
+                            <p>(b) The heading and explanatory text are for reference purposes only and in no way define, limit, construe, or describe the scope or extent of such clause. The Terms, including all relevant sections and Play2World’s policies governing the Services referenced herein, the Privacy Policy and the Cookie Policy constitute the entire agreement between you and Play2World with respect to the use of the Services.</p>
+
+
+
+                            <p>(c) The Terms are not intended and shall not be construed to create any rights or remedies in any parties other than you and Play2World and other Play2World affiliates which each shall be a third-party beneficiary of the Terms, and no other person shall assert any rights as a third party beneficiary hereunder.</p>
+
+
+                        </div>
+                    </div>
+            </article>
+            <div class="footer_eWXdWO__JZCoY footer_emIpmc__guOFc">
+                <div class="footer_eyEJqe__NrVBE">
+                    <div class="footer_eYNmtA__fPqS6">
+                        <div class="footer_drCTcp__Brzjf"><span style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;padding-top:73.4375%"></span><img alt="Play2 Logo" src="images/pink_play2_icon.webp" decoding="async" data-nimg="responsive" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" sizes="100vw" /></span></div>
+                        <p>Copyright, 2022 The Play2 Foundation Ltd.</p>
+                    </div>
+                    <div class="footer_jOvOhy__F_G5_">
+                        <div class="footer_QvOHG__HTe3g"><a href="privacy.html"><span>Privacy Policy</span></a><a href="terms.html"><span>T&amp;C</span></a></div>
+                        <div class="footer_ekFRem__L3yLr"><a href="https://discord.gg/play2economy" target="_blank" rel="noopener noreferrer" class="footer_hshyCT__18YjZ footer_cxwjfi__OcyBV"></a><a href="https://t.me/play2economy" target="_blank" rel="noopener noreferrer" class="footer_hshyCT__18YjZ footer_bMpWqf__z6Q_s"></a><a href="https://twitter.com/play2economy" target="_blank" rel="noopener noreferrer" class="footer_hshyCT__18YjZ footer_iTxPMv__FPhm_"></a><a href="https://www.reddit.com/r/play2economy/" target="_blank" rel="noopener noreferrer" class="footer_hshyCT__18YjZ footer_bBijkN__zMJLQ"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer_czOkDb__l4poY"></div>
+        </div><a href="#top"><button class="scroltop icon-up" type="button" style="display:inline-block"><i class="fa fa-arrow-up"></i></button></a>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/terms","query":{},"buildId":"71tYW13rmszxMkH6xOrtv","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+</body>
+
+</html>
