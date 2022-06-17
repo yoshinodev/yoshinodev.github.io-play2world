@@ -500,16 +500,12 @@
                           ],
                         }),
                       }),
-                      (0, d.jsx)("p", { className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk), children: "Currently, the Play2coin app verifies steps as a Movement Validator." }),
+                      (0, d.jsx)("p", { className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk) }),
                     ],
                   }),
                   (0, d.jsx)("p", {
                     className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk),
-                    children: (0, d.jsxs)("span", {[
-                        " ",
-                        (0, d.jsx)("strong"),
-                      ],
-                    }),
+                    children: (0, d.jsxs)("span")
                   }),
                   (0, d.jsx)("div", {
                     className: B().hHOgMR,
