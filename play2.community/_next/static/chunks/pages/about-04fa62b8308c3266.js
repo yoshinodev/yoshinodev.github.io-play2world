@@ -904,14 +904,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "James Oshomar" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Full Stack Blockchain Dev" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title"}),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children:
-                                "James has worked in crypto for three years with Tether and Bitfinex. His role as Head of Tokens at Bitfinex, along with his experience of running a token sale platform, means he knows what makes a project and token successful.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Previously he worked at Deliveroo's HQ in London and as an equity analyst at a hedge fund. Henry holds an MSc. and BSc. degrees." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                         (0, d.jsxs)("div", {
@@ -971,14 +969,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Antoaneta Yurukova" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Finance" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children:
-                                "Antoaneta has worked in crypto for three years with Tether and Bitfinex. His role as Head of Tokens at Bitfinex, along with his experience of running a token sale platform, means he knows what makes a project and token successful.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Previously he worked at Deliveroo's HQ in London and as an equity analyst at a hedge fund. Henry holds an MSc. and BSc. degrees." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                         (0, d.jsxs)("div", {
@@ -1038,14 +1034,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Ivan Ivanov" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Legal/IP" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children:
-                                "Ivan has worked in crypto for three years with Tether and Bitfinex. His role as Head of Tokens at Bitfinex, along with his experience of running a token sale platform, means he knows what makes a project and token successful.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Previously he worked at Deliveroo's HQ in London and as an equity analyst at a hedge fund. Henry holds an MSc. and BSc. degrees." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                         (0, d.jsxs)("div", {
