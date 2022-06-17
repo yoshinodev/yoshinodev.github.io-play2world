@@ -644,10 +644,10 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Maurice Flynn" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Founder" }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Maurice is co-founder and CPO of Play2coin. He has had a wealth of strategic roles, and a focus on behavioral change at Pepsi, Coca-Cola, Visa, BT, and BCG." }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "From Play2coin's inception in 2015, Oleg envisioned crypto as the means of unlocking the real value of movement." }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm}),
+                            (0, d.jsx)("h5", { className: "team-title" }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
+                            (0, d.jsx)("p", { className: F().hXdjbv}),
                           ],
                         }),
                         (0, d.jsxs)("div", {
@@ -711,10 +711,9 @@
                             (0, d.jsx)("h4", { className: F().ZVvqm, children: "Christopher Flynn" }),
                             (0, d.jsx)("h5", { className: "team-title", children: "Content Lead" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children: "Christopher is Content Lead of Play2coin. Previously, he was founding CEO of a VC focused on HR and Fitness-tech, while managing senior roles at A.T Kearney, Reebok and Pepsi-Cola.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "He holds graduate degrees from Stanford and Hass Business School (UC Berkeley), and an MBA from London Business School." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                         (0, d.jsxs)("div", {
