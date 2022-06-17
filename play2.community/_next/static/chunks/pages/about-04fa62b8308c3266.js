@@ -178,7 +178,7 @@
         j = c.n(i),
         k = function () {
           return (0, d.jsxs)(d.Fragment, {
-            children: [(0, d.jsx)("h3", { className: j().fNtDzV, children: "THE VISION" }), (0, d.jsx)("h1", { className: j().cqQbWR, children: document.getElementsByName})],
+            children: [(0, d.jsx)("h3", { className: j().fNtDzV, children: "THE VISION" }), (0, d.jsx)("h1", { className: j().cqQbWR })],
           });
         },
         l = c(6765),
@@ -202,7 +202,7 @@
                   }),
                   (0, d.jsx)("p", {
                     className: "".concat(p().lcnNYU, " ").concat(p().furDHr),
-                    children: (0, d.jsxs)("span", { children: ["Play2 Economy ", (0, d.jsx)("strong", { children: "rewards movement" }), " to inspire a healthier, wealthier planet. For everyone."] }),
+                    children: (0, d.jsxs)("span", { /* children: ["Play2 Economy ", (0, d.jsx)("strong", { children: "rewards movement" }), " to inspire a healthier, wealthier planet. For everyone."]*/ }),
                   }),
                 ],
               }),
