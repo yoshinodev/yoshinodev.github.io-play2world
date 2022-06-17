@@ -495,10 +495,8 @@
                             " ",
                             (0, d.jsxs)("span", {
                               className: B().dQyejO,
-                              children: [(0, d.jsx)("a", { href: "https://near.org/", target: "_blank", rel: "noopener noreferrer", children: "NEAR" }), " ", "– a low cost, high speed, and eco-friendly blockchain."],
-                            }),
-                            " ",
-                            "Only verified movement mints Play2.",
+                              children: [(0, d.jsx)("a", { href: "https://near.org/", target: "_blank", rel: "noopener noreferrer", children: "NEAR" }), " "
+                          ]}),
                           ],
                         }),
                       }),
@@ -507,11 +505,9 @@
                   }),
                   (0, d.jsx)("p", {
                     className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk),
-                    children: (0, d.jsxs)("span", {
-                      children: [
-                        "In time, the Foundation will decentralize the movement verification process to enable other apps and wearables to verify new forms of movement, paving the way for users to",
+                    children: (0, d.jsxs)("span", {[
                         " ",
-                        (0, d.jsx)("strong", { children: "earn Play2 for swimming, cycling, hiking, gym work and more." }),
+                        (0, d.jsx)("strong"),
                       ],
                     }),
                   }),
