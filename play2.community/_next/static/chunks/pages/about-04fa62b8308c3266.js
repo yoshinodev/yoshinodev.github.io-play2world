@@ -219,12 +219,11 @@
                 className: s().gDupJu,
                 children: [
                   (0, d.jsx)("h2", { className: s().bcxcYC, children: "How does it work?" }),
-                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr), children: "If movement can improve lives, it has an economic value." }),
+                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr) }),
                   (0, d.jsx)("p", {
                     className: "".concat(s().lcnNYU, " ").concat(s().furDHr),
                     children: (0, d.jsxs)("span", {
                       children: [
-                        "Employers pay for workers’ gym memberships. Health insurers offer discounts for physical activity. Governments encourage cycle to work schemes; and promote sport to foster community growth. To learn more about the value of physical activity, read our",
                         " ",
                         (0, d.jsx)("a", { href: "https://blog.Play2co.in/research-on-the-value-of-physical-activity/", target: "_blank", rel: "noopener noreferrer", children: "research article" }),
                         ".",
