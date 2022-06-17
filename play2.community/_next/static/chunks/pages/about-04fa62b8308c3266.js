@@ -230,7 +230,7 @@
                       ],
                     }),
                   }),
-                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr), children: "Play2 is the currency of the open economy of movement, where the token can be bought, sold, and exchanged." }),
+                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr) }),
                 ],
               }),
               (0, d.jsx)("div", { className: s().bUwDEE }),
@@ -241,10 +241,10 @@
                   (0, d.jsx)("p", {
                     className: "".concat(s().lcnNYU, " ").concat(s().furDHr),
                     children: (0, d.jsxs)("span", {
-                      children: ["Play2 is for everyone who moves. Whether you are new to crypto, or are an enthusiast, you can download the app, and", " ", (0, d.jsx)("strong", { children: "create your Play2 Wallet in minutes." })],
+                      children: [/*"Play2 is for everyone who moves. Whether you are new to crypto, or are an enthusiast, you can download the app, and"*/, " ", (0, d.jsx)("strong")],
                     }),
                   }),
-                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr), children: "You have nothing to lose. Your steps – verified by the Play2coin app – are all that is required to generate a new currency for you." }),
+                  (0, d.jsx)("p", { className: "".concat(s().lcnNYU, " ").concat(s().furDHr)}),
                 ],
               }),
             ],
