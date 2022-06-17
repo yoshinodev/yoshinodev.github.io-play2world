@@ -347,8 +347,8 @@
                           (0, d.jsxs)("div", {
                             className: v().jQMVoz,
                             children: [
-                              (0, d.jsx)("h4", { className: v().gdWsUJ, children: "Staking" }),
-                              (0, d.jsx)("p", { className: v().jDPNyC, children: "GROW YOUR Play2." }),
+                              (0, d.jsx)("h4", { className: v().gdWsUJ }),
+                              (0, d.jsx)("p", { className: v().jDPNyC }),
                               (0, d.jsx)("p", {
                                 className: "".concat(v().lcnNYU, " ").concat(v().epSsnw),
                                 children: (0, d.jsxs)("span", {
@@ -502,10 +502,6 @@
                       }),
                       (0, d.jsx)("p", { className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk) }),
                     ],
-                  }),
-                  (0, d.jsx)("p", {
-                    className: "".concat(B().lcnNYU, " ").concat(B().gdvYxk),
-                    children: (0, d.jsxs)("span")
                   }),
                   (0, d.jsx)("div", {
                     className: B().hHOgMR,
