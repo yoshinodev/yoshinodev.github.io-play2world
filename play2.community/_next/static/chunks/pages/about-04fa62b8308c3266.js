@@ -774,13 +774,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Martin Hall" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Marketing/Biz Dev Lead" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm}),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children: "Martin is Marketing/Biz Dev Lead of Play2coin, Egor is an experienced developer who has co-founded a number of technology businesses in Moscow, spanning online content, video-hosting and online photo moderation.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "He has studied Machine Learning, Product Design, Graphic Design and Engineering at the University of London, Computer Science." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv }),
                           ],
                         }),
                         (0, d.jsxs)("div", {
@@ -840,14 +839,12 @@
                                 ],
                               }),
                             }),
-                            (0, d.jsx)("h4", { className: F().ZVvqm, children: "Amar Kumar" }),
-                            (0, d.jsx)("h5", { className: "team-title", children: "Back End Dev Lead" }),
+                            (0, d.jsx)("h4", { className: F().ZVvqm }),
+                            (0, d.jsx)("h5", { className: "team-title" }),
                             (0, d.jsx)("p", {
-                              className: F().hXdjbv,
-                              children:
-                                "Amar has worked in crypto for three years with Tether and Bitfinex. His role as Head of Tokens at Bitfinex, along with his experience of running a token sale platform, means he knows what makes a project and token successful.",
+                              className: F().hXdjbv
                             }),
-                            (0, d.jsx)("p", { className: F().hXdjbv, children: "Previously he worked at Deliveroo's HQ in London and as an equity analyst at a hedge fund. Henry holds an MSc. and BSc. degrees." }),
+                            (0, d.jsx)("p", { className: F().hXdjbv}),
                           ],
                         }),
                         (0, d.jsxs)("div", {
