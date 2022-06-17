@@ -3,7 +3,7 @@
   {
     8961: function (a, b, c) {
       (window.__NEXT_P = window.__NEXT_P || []).push([
-        "/about",
+        "/about.html",
         function () {
           return c(1595);
         },
@@ -178,7 +178,7 @@
         j = c.n(i),
         k = function () {
           return (0, d.jsxs)(d.Fragment, {
-            children: [(0, d.jsx)("h3", { className: j().fNtDzV, children: "THE VISION" }), (0, d.jsx)("h1", { className: j().cqQbWR, children: "To inspire a healthier, wealthier planet by rewarding all forms of movement." })],
+            children: [(0, d.jsx)("h3", { className: j().fNtDzV, children: "THE VISION" }), (0, d.jsx)("h1", { className: j().cqQbWR, children: document.getElementsByName})],
           });
         },
         l = c(6765),
